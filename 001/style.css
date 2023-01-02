@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: #110D3A;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+
+    
+}
+
+.container img{
+    width: 80.2rem;
+    margin-top: 5rem;
+}
+
+.hero{
+    display: flex;
+    margin: 60rem 70rem;
+
+    position: absolute;
+
+    
+}
+
+.hero img{
+    border-radius: 6rem;
+    padding: 3.0rem;
+    cursor: pointer;
+
+    position: relative;
+    border: 1px solid red;
+    height: 45vh;
+}
+
+
+
+
+h2{
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    position: absolute;
+
+    top: 50rem;
+    padding-left: 15rem ;
+    opacity: 0;
+}
+
+h2:hover{
+    opacity: 1;
+}
+
+.hide{
+    display: none;
+}
